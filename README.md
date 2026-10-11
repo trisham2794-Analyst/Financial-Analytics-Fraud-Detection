@@ -47,7 +47,7 @@ Provides an overview of fraud monitoring metrics, including:
 - Monthly Fraud Trends
 - Fraud Flags Distribution
 
-![Fraud Monitoring Summary](Screenshots/01_Fraud_Monitoring_Summary.png)
+![Fraud Monitoring Summary](01_Fraud_Monitoring_Summary.png)
 
 ### 2. Transaction Risk Analysis
 
@@ -59,7 +59,7 @@ Analyzes transaction risk across different categories:
 - Fraud Rate by Transaction Type
 - Transaction Type and Payment Method Analysis
 
-![Transaction Risk Analysis](Screenshots/02_Transaction_Risk_Analysis.png)
+![Transaction Risk Analysis](02_Transaction_Risk_Analysis.png)
 
 ### 3. Location & Amount Insights
 
@@ -72,7 +72,7 @@ Focuses on geographical and merchant-level fraud analysis:
 - Domestic and International Fraud Trends
 - Fraud Rate by Location
 
-![Location and Amount Insights](Screenshots/03_Location_Amount_Insights.png)
+![Location and Amount Insights](03_Location_Amount_Insights.png)
 
 ### 4. Transaction Drill-Through Analysis
 
