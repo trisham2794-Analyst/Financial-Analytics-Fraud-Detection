@@ -22,6 +22,7 @@ business intelligence techniques to financial fraud analysis.
 - Identify merchants with higher numbers of flagged transactions.
 - Compare fraud activity across geographical locations.
 - Identify high-risk customers using customer-level risk scores and fraud amounts.
+- Enable customer-level investigation of transaction history through drill-through.
 - Present findings through an interactive Power BI dashboard.
 
 ## Tools & Technologies
@@ -29,6 +30,7 @@ business intelligence techniques to financial fraud analysis.
 - Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
+- Drill-Through and Page Navigation
 - Data Visualization
 - Financial Transaction Analysis
 
@@ -86,6 +88,18 @@ Identifies and monitors customers flagged for risk, including:
 
 ![Customer Watchlist](04_Customer_Watchlist.png)
 
+### 5. Customer Details (Hidden Drill-Through Page)
+
+A hidden drill-through page that gives a record-level view of a single customer. It is not shown in the page tabs and is opened from the Customer Watchlist page by right-clicking a customer and selecting **Drill through → Customer Details**. A back button returns to the previous page.
+
+- Selected Customer
+- Total Transactions
+- Total Fraud Transactions
+- Total Amount
+- Transaction History: Transaction ID, Date, Merchant, Amount and Status (Success, Failed, Reversed)
+
+![Customer Details](05_Customer_Details.png)
+
 ## Key Business Questions
 
 - How does the fraud rate change over time?
@@ -96,6 +110,7 @@ Identifies and monitors customers flagged for risk, including:
 - How do fraud rates vary across locations?
 - Which customers are on the watchlist, and what are their risk levels?
 - Which customers account for the highest total fraud amounts?
+- What does the transaction history of a flagged customer look like?
 
 ## Key Skills Demonstrated
 
@@ -104,6 +119,7 @@ Identifies and monitors customers flagged for risk, including:
 - KPI Development
 - DAX Measures
 - Interactive Data Visualization
+- Drill-Through and Page Navigation
 - Fraud and Transaction Risk Analysis
 - Customer Risk Scoring and Watchlist Monitoring
 - Business Intelligence Reporting
@@ -122,7 +138,10 @@ documented here when available.
 2. Open the Power BI report from the Dashboard folder.
 3. Review the report pages and interact with the available
    filters and slicers.
-4. Examine the dataset and calculations if the corresponding
+4. On the Customer Watchlist page, right-click a customer and
+   choose Drill through → Customer Details to view that
+   customer's transaction history.
+5. Examine the dataset and calculations if the corresponding
    files are included.
 
 ## Disclaimer
@@ -135,4 +154,4 @@ of fraudulent activity.
 
 ## Author
 
-**Trisham Gautam**
+** Trisham Gautam **
