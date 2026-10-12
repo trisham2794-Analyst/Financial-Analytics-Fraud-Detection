@@ -1,6 +1,3 @@
-# Financial-Analytics-Fraud-Detection-Transaction-Risk-Analysis
-Power BI dashboard for financial analytics, fraud monitoring, transaction risk analysis, and location-based insights.
-
 # Financial Analytics, Fraud Detection & Transaction Risk Analysis
 
 ## Project Overview
@@ -11,7 +8,7 @@ and identify potential transaction risks.
 
 The dashboard presents insights into fraud rates, transaction
 patterns, payment methods, device types, account categories,
-merchants, and geographical locations.
+merchants, geographical locations, and high-risk customers.
 
 It demonstrates the application of data visualization and
 business intelligence techniques to financial fraud analysis.
@@ -24,6 +21,7 @@ business intelligence techniques to financial fraud analysis.
 - Examine transaction risks by account and transaction type.
 - Identify merchants with higher numbers of flagged transactions.
 - Compare fraud activity across geographical locations.
+- Identify high-risk customers using customer-level risk scores and fraud amounts.
 - Present findings through an interactive Power BI dashboard.
 
 ## Tools & Technologies
@@ -74,16 +72,19 @@ Focuses on geographical and merchant-level fraud analysis:
 
 ![Location and Amount Insights](03_Location_Amount_Insights.png)
 
-### 4. Transaction Drill-Through Analysis
+### 4. Customer Watchlist
 
-A hidden drill-through page that allows users to investigate
-specific transactions or categories in greater detail.
+Identifies and monitors customers flagged for risk, including:
 
-Features:
-- Context-sensitive transaction analysis
-- Detailed investigation of selected records
-- Navigation from Customer Watchlist visuals to detailed analysis
-- Interactive drill-through functionality
+- Watchlist Customers
+- Reversal Rate %
+- Failed Rate %
+- Customer-Level Transactions, Fraud Transactions, Fraud Amount and Failed Transactions
+- Risk Score by Customer
+- Total Fraud Amount by Customer ID
+- Risk Level Filters: Low, Medium, High, Very High and Critical
+
+![Customer Watchlist](04_Customer_Watchlist.png)
 
 ## Key Business Questions
 
@@ -93,6 +94,8 @@ Features:
 - Which transaction types account for more flagged transactions?
 - Which merchants have the highest numbers of fraud-related transactions?
 - How do fraud rates vary across locations?
+- Which customers are on the watchlist, and what are their risk levels?
+- Which customers account for the highest total fraud amounts?
 
 ## Key Skills Demonstrated
 
@@ -102,6 +105,7 @@ Features:
 - DAX Measures
 - Interactive Data Visualization
 - Fraud and Transaction Risk Analysis
+- Customer Risk Scoring and Watchlist Monitoring
 - Business Intelligence Reporting
 
 ## Dataset
@@ -130,6 +134,5 @@ Observed relationships do not necessarily establish the causes
 of fraudulent activity.
 
 ## Author
-Trisham Gautam
 
-Aspiring Data Analyst | Power BI | SQL | Advanced Excel
+**Trisham Gautam**
